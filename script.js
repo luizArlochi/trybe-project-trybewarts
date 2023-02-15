@@ -1,4 +1,4 @@
-const emailInput = document.getElementById('email');
+const emailInput = document.querySelector('input[name="email"]');
 const passwordInput = document.querySelector('input[name="password"]');
 const loginButton = document.querySelector('button');
 

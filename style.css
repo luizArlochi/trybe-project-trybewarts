@@ -22,6 +22,10 @@ main {
     display: flex;
 }
 
-.trybewarts-login input{
+.trybewarts-login input {
     border-radius: 5px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
