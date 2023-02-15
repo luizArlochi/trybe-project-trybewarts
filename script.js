@@ -1,3 +1,6 @@
+// função que aguarda um evento (click) e executa a validação dos valores de 'email e 'password', retornando
+// 'Olá, Tryber!' caso os valores sejam true, e 'Email ou senha inválidos' caso sejam false.
+
 const emailInput = document.querySelector('input[name="email"]');
 const passwordInput = document.querySelector('input[name="password"]');
 const loginButton = document.querySelector('button');
