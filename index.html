@@ -36,12 +36,38 @@
                 <option id="pytherina-house" value="Pytherina">Pytherina</option>
             </select>
           </div>
-            <div>
-              <label id='label-family'>Qual sua família?</label>
-              <input type="radio" name="family" value="Frontend">Frontend
-              <input type="radio" name="family" value="Backend">Backend
-              <input type="radio" name="family" value="FullStack">FullStack
-            </div>
+          <div class="label-family-container">
+            <label id="label-family">Qual sua família?</label>
+              <input type="radio" name="family" value="Frontend">Família Frontend
+              <input type="radio" name="family" value="Backend" >Família Backend
+              <input type="radio" name="family" value="FullStack">Família FullStack
+          </div>
+          <div>
+            <label id='label-content' for="">Qual conteúdo você está com mais vontade de aprender?</label>
+            <input class='subject' type="checkbox" name="" id="" value="HoFs">HoFs
+            <input class='subject' type="checkbox" name="" id="" value="Jest">Jest
+            <input class='subject' type="checkbox" name="" id="" value="Promises">Promises
+            <input class='subject' type="checkbox" name="" id="" value="React">React
+            <input class='subject' type="checkbox" name="" id="" value="SQL">SQL
+            <input class='subject' type="checkbox" name="" id="" value="Python">Python
+          </div>
+          <div id="label-rate-container">
+            <label id='label-rate' for="">Como você avalia a Trybewarts?</label>
+            <input type="radio" name="rate" id="" value="1">1
+            <input type="radio" name="rate" id="" value="2">2
+            <input type="radio" name="rate" id="" value="3">3
+            <input type="radio" name="rate" id="" value="4">4
+            <input type="radio" name="rate" id="" value="5">5
+            <input type="radio" name="rate" id="" value="6">6
+            <input type="radio" name="rate" id="" value="7">7
+            <input type="radio" name="rate" id="" value="8">8
+            <input type="radio" name="rate" id="" value="9">9
+            <input type="radio" name="rate" id="" value="10">10
+          </div>
+          <div>
+            <label class='textarea' for="">Deixe seu comentário:</label>
+            <textarea name="" cols="30" rows="10" maxlength="500"></textarea>
+          </div>
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo da tryber warts">
     </main>
