@@ -15,16 +15,19 @@
           <label for="email">
             <input type="email" name="email" placeholder="Email">
           </label>
-          <label for="password"> Senha
-            <input type="password" name="password" placeholder="Senha">
+          <label for="password">
+            <input id="password" type="password" name="password" placeholder="Senha">
           </label>
-        <button>Entrar</button>
+        <button id="button-submit">Entrar</button>
         </form>
     </header>
     <main>
         <form id='evaluation-form' action="">
+          <div class="full-name">
             <input id='input-name' type="text" placeholder="Nome">
             <input id='input-lastname' type="text" placeholder="Sobrenome">
+          </div>
+          <div class="email-select">
             <input id='input-email' type="text" placeholder="Email">
             <select name="" id="house">
                 <option id="gitnoria-house" value="Gitnória">Gitnória</option>
@@ -32,6 +35,7 @@
                 <option id="corvinode-house" value="Corvinode">Corvinode</option>
                 <option id="pytherina-house" value="Pytherina">Pytherina</option>
             </select>
+          </div>
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo da tryber warts">
     </main>

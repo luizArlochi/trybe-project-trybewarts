@@ -1,3 +1,8 @@
+body {
+  background-image: url('https://images6.alphacoders.com/853/853375.png');
+  background-size: cover;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -7,13 +12,19 @@
 
 main {
   display: flex;
+  justify-content: space-around;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  background-color: rgba(20, 20, 20, 0.589);
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
 }
+
 
 .trybewarts-header-logo {
   width: 70px;
@@ -21,12 +32,53 @@ main {
 
 .trybewarts-login {
   display: flex;
+  margin-right: 15px;
 }
 
 .trybewarts-login input {
-  border-radius: 5px;
+  border-radius: 8px;
+}
+
+#password {
+  margin-left: 10px;
+}
+
+#button-submit {
+  border-radius: 10px;
+  margin-left: 5px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+  margin-top: 100px;
+}
+
+.full-name {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.full-name input {
+  width: 280px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.email-select {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.email-select input {
+  width: 280px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#house {
+  width: 293px;
+  border-radius: 10px;
+  padding: 5px;
 }
