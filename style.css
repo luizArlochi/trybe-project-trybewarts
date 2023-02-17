@@ -28,9 +28,7 @@ main {
   padding: 20px;
   margin-top: 50px;
   border-radius: 20px;
-  border: 1px solid red;
 }
-
 
 .trybewarts-header-logo {
   width: 70px;
@@ -88,7 +86,6 @@ main {
   width: 293px;
   border-radius: 10px;
   padding: 5px;
-  border: 1px solid red;
 }
 
 .label-family-container {
