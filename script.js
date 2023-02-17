@@ -15,3 +15,19 @@ function loginValidate(event) {
 }
 
 loginButton.addEventListener('click', loginValidate);
+
+const submitBtn = document.getElementById('submit-btn');
+submitBtn.disabled = true;
+
+submitBtn.addEventListener('click', (event) => {
+  event.preventDefault();
+});
+
+const checkbox = document.getElementById('agreement');
+checkbox.addEventListener('change', () => {
+  if (checkbox.checked) {
+    submitBtn.removeAttribute('disabled');
+  } else {
+    submitBtn.setAttribute('disabled', true);
+  }
+});
