@@ -95,7 +95,7 @@ main {
   padding: 15px;
 }
 
-#label-family, #label-content {
+#label-family , #label-content {
   display: flex;
   flex-direction: column;
   width: 250px;
