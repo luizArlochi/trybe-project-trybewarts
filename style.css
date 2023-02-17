@@ -69,6 +69,7 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  flex-flow: wrap;
 }
 
 .email-select input {
@@ -81,4 +82,17 @@ main {
   width: 293px;
   border-radius: 10px;
   padding: 5px;
+}
+
+.label-family-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 15px;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
 }
