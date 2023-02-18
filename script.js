@@ -16,6 +16,10 @@ function loginValidate(event) {
 
 loginButton.addEventListener('click', loginValidate);
 
+// Captura e cria um evento para o botão submit e o pré determina como desabilitado ,
+// na função checkbox verifica se houve uma mudança no checkbox 'agreement' e retorna uma condição,
+// se o checkbox 'agreement' estiver preenchido remove o atributo 'disabled' do botão, do contrário o mantém.
+
 const submitBtn = document.getElementById('submit-btn');
 submitBtn.disabled = true;
 
