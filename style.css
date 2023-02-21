@@ -6,6 +6,7 @@
 body {
   background-image: url('https://images6.alphacoders.com/853/853375.png');
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -13,6 +14,7 @@ body {
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
   align-items: center;
+  width: 100vw;
 }
 
 main {
@@ -28,6 +30,7 @@ main {
   padding: 20px;
   margin-top: 50px;
   border-radius: 20px;
+  /* flex-flow: row wrap; */
 }
 
 .trybewarts-header-logo {
@@ -99,4 +102,35 @@ main {
   display: flex;
   flex-direction: column;
   width: 250px;
+}
+
+#label-family {
+  margin-bottom: 10px;
+}
+
+.label-container {
+  display: flex;
+  padding: 5px;
+  width: 300px;
+  flex-direction: column;
+}
+
+#agreement {
+  margin-bottom: 20px;
+}
+
+#submit-btn {
+  display: flex;
+  width: 62px;
+  padding: 10px;
+  align-self: center;
+
+}
+
+.input-radio {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: space-between;
+  margin-bottom: 10px ;
 }
